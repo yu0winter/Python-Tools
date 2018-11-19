@@ -20,12 +20,8 @@ def main():
     str = raw_input("请输入需要检查的目录：")
     checkPath = str.replace(' ','');
 
-    # s =os.system("echo '方法1'")
     print('文件名    是否支持64位模拟器(x86_64)    指令集')
     detect_walk(checkPath);
-
-    # aPath = "/Users/niuyulong/Desktop/JDJR/jdjrMobile_IOS/Pods/JRThirdPlatform/JRThirdPlatform/Classes/JDPayJR/JDPay.framework/JDPay"
-    # checkSDKWithPath(aPath)
     print '程序执行结束';
     pass
 
